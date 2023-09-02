@@ -83,7 +83,7 @@
   }
 body{
   text-align: center;
-  background-image: url("/login/assert/ubuntu-icon-logo-png-transparent.png");
+  background-image: url("ubuntu-icon-logo-png-transparent.png");
   background-position-x: 0%;
   bottom: -20px;
   background-size: cover;
