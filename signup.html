@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Sign Up Form</title>
+      <link rel="stylesheet" href="style.css">
+   </head>
+
+
+
+
+   
+   <body class="min-vh-100">
+      <div class="container-sm">
+      <form action="index.html">
+         <div>
+            <label for="name" class="form-label"> First name: </label><br>
+            <input
+               type="text"
+               name="fst name"
+               id="name"
+               class="form-control form-control-lg border-0"
+               placeholder="Enter first name"
+               required
+               />
+               <div>
+                  <label for="name" class="form-label"> last name: </label><br>
+                  <input
+                     type="text"
+                     name="last name"
+                     id="name"
+                     class="form-control form-control-lg border-0"
+                     placeholder="Enter last name"
+                     minlength="5"
+                     maxlength="16"
+                     required
+                     />
+         <div>
+            <label for="name" class="form-label"> phone  number: </label><br>
+            <input
+               type="number"
+               name="ph no"
+               id="name"
+               class="form-control form-control-lg border-0"
+               placeholder="Enter phone number"
+               minlength="5"
+               maxlength="16"
+               required
+               /><br>
+               <label for="birthday">Birthday:</label><br>
+               <input type="date" id="birthday" name="birthday">
+         </div>
+         
+         <div>
+            <label for="email" class="form-label"> Email: </label><br>
+            <input
+               type="email"
+               name="email"
+               id="email"
+               class="form-control form-control-lg border-0"
+               placeholder="Enter email"
+               required
+               />
+         </div>
+            <div>
+               <label for="pwd" class="form-label"> Password: </label><br>
+             
+            </div>
+            <input
+               type="password"
+               name="pwd"
+               id="pwd"
+               class="form-control form-control-lg border-0"
+               placeholder="Enter password"
+               minlength="12"
+               maxlength="12"
+               required
+               />
+         </div>
+         <div>
+            <label class="form-check-label user-select-none"><br>
+            <input
+               type="checkbox"
+               name="remember-me"
+               class="form-check-input"
+               />
+            <span >Remember me</span>
+            </label>
+         </div>
+         <button
+            type="submit"
+            class="d-block w-50 mx-auto btn btn-outline-dark mt-5">
+         signup
+         </button>
+      </form>
+   </div>
+
+   
+   </body>
+</html>

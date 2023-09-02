@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+
+
+  .form-container {
+    width: 600px;
+    margin-bottom: 20px;
+    padding: 50px;
+    background-color:rgb(6, 215, 243);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(241, 227, 227, 0.932);
+    color: #fff;
+    transform: translate(70%);
+    position: relative;
+    top: 300px;
+  }
+  .container{
+    width: 450px;
+    height: 700px;
+    transform: translate(50%);
+
+  }
+
+  h1 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: #b38bff;
+  }
+
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .abel {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+
+  input {
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #555;
+  }
+
+  button {
+    padding: 10px;
+    background-color: #b38bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s ease-in-out;
+  }
+
+  button:hover {
+    background-color: #8c5fb2;
+  }
+
+  a {
+    text-decoration: none;
+    color: #b38bff;
+    font-size: 18px;
+    transition: color 0.2s ease-in-out;
+  }
+
+  a:hover {
+    color: #8c5fb2;
+  }
+
+  p {
+    text-align: center;
+    margin: 8px;
+  }
+body{
+  text-align: center;
+  background-image: url(/login/assert/ubuntu-icon-logo-png-transparent.png);
+  background-position-x: 0%;
+  bottom: -20px;
+  background-size: cover;
+}
+
+.container-sm{
+  border: 1px solid black;
+  height: 600px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 200px;
+  background-color: rgb(6, 215, 243);
+}
